@@ -1,0 +1,83 @@
+.logo{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 140px;
+    height: auto;
+}
+body{
+    background-color: #101415;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+hr{
+    width: 950px;
+    margin: auto;
+    border: 1px solid  grey;
+}
+.container{
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+}
+.message{
+    color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 10px 12px;
+    border: 2px solid #feb805;
+    border-radius: 20px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1031px;
+    width: 100%;
+}
+#messageInp{
+    width: 92%;
+    height: 30px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 31px;
+    color: white;
+    padding-left: 10px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid white;
+    width: 55px;
+    border-radius: 25px;
+    height: 37px;
+    background: #feb805;
+}
+@media (max-width:375px){
+    body{
+        width: 97vw;
+        overflow-y: hidden;
+    }
+    .logo{
+        width: 92px;
+    }
+    hr{
+        width: 316px;
+    }
+    #messageInp{
+        width: 272px;
+        height: 24px;
+    }
+    .btn{
+        height: 30px;
+    }
+
+}
